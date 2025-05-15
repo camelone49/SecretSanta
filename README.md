@@ -10,7 +10,8 @@ Steps:
   2. Run "wichteln.m" - this is where all the assigning happens. "Zahlpruf.m" is a function which checks if there are any double assignments
   3. Open "sendmailto.m" and put in your email address (it is configured for gmail servers). You need to generate a password which MATLAB can use for your gmail account.
      For this refer to: https://de.mathworks.com/matlabcentral/answers/1672544-using-gmail-after-may-30-2022
-   4. Run "sendmailto.m" There are two options: input 0: Only a testmail to everyone; input 1: Official mail to everyone.
+  4. Run "sendmailto.m" There are two options: input 0: Only a testmail to everyone; input 1: Official mail to everyone.
+  5. You are open to modify the message (Please do) 
 
 The output should look like this:
 ![Image](https://github.com/user-attachments/assets/e987ade7-7758-4470-8cae-8bf963363494)
