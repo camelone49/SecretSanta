@@ -1,17 +1,14 @@
 function [x] = sendmailto(Bewohner)
 setpref('Internet','SMTP_Server','smtp.gmail.com');
-setpref('Internet','E_mail','smart.hisham@gmail.com'); % Need to give the email ID
+setpref('Internet','E_mail','put your email in here'); % Need to give the email ID
 
 props = java.lang.System.getProperties;
 props.setProperty('mail.smtp.auth','true');
 props.setProperty('mail.smtp.starttls.enable','true');
 props.setProperty('mail.smtp.port', '587');  % Set the correct port for STARTTLS
 
-setpref('Internet','SMTP_Username','smart.hisham@gmail.com');
-setpref('Internet','SMTP_Password','npyj iaeg pkuk turh');
-
-setpref('Internet','SMTP_Username','smart.hisham@gmail.com'); % Need to give the email ID
-setpref('Internet','SMTP_Password','npyj iaeg pkuk turh'); % Need to give the password
+setpref('Internet','SMTP_Username','put your email in here');
+setpref('Internet','SMTP_Password','put your password in here');
 
 Bewohnerindex = Bewohner(:,1);
 mailadressen = Bewohner(:,4);
