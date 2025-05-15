@@ -13,6 +13,6 @@ Steps:
    4. Run "sendmailto.m" There are two options: input 0: Only a testmail to everyone; input 1: Official mail to everyone.
 
 The output should look like this:
-
+![Image](https://github.com/user-attachments/assets/e987ade7-7758-4470-8cae-8bf963363494)
 
 
