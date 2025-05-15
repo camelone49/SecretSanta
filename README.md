@@ -12,4 +12,7 @@ Steps:
      For this refer to: https://de.mathworks.com/matlabcentral/answers/1672544-using-gmail-after-may-30-2022
    4. Run "sendmailto.m" There are two options: input 0: Only a testmail to everyone; input 1: Official mail to everyone.
 
+The output should look like this:
+
+
 
